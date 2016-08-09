@@ -1,31 +1,31 @@
 import { Component, EventEmitter } from 'angular2/core';
-import { TaskListComponent } from './task-list.component';
-import { Task } from './task.model';
+import { KegListComponent } from './keg-list.component';
+import { Keg } from './keg.model';
 
 @Component({
   selector: 'my-app',
-  directives: [TaskListComponent],
+  directives: [KegListComponent],
   template: `
     <div class="container">
-      <h1>To-Do List</h1>
-      <task-list
-        [taskList]="tasks"
-        (onTaskSelect)="taskWasSelected($event)">
-      </task-list>
+      <h1>Keg List</h1>
+      <keg-list
+        [kegList]="kegs"
+        (onKegSelect)="kegWasSelected($event)">
+      </keg-list>
     <div>
   `
 })
 export class AppComponent {
-  public tasks: Task[];
+  public kegs: Keg[];
   constructor(){
-    this.tasks = [
-      new Task("Create To-Do List app.", 0),
-      new Task("Learn Kung Fu.", 1),
-      new Task("Rewatch all the Lord of the Rings movies.", 2),
-      new Task("Do the laundry.", 3)
+    this.kegs = [
+      new Keg("Uinta Pils Small Batch Pilsner", "Pilsner", 0),
+      new Keg("Knee Deep Lupulin River IIPA", "IPA", 1),
+      new Keg("Alameda Eccentric Crank Belgian-Style Pale Ale", "Pale Ale", 2),
+      new Keg("Fremont Coffee Cinnamon BBomb 2015 Strong Ale", "Strong Ale", 3)
     ];
   }
-  taskWasSelected(clickedTask: Task): void {
-    console.log('parent', clickedTask);
+  kegWasSelected(clickedKeg: Keg): void {
+    console.log('parent', clickedKeg);
   }
 }

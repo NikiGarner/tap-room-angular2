@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Lakki+Reddy);
+
+$patina: #699;
+
+.container {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+}
+h1 {
+  color: $patina;
+  font-size: 5em;
+  font-family: 'Lakki Reddy', cursive;
+  text-align: center;
+}
+h3 {
+  font-family: 'Lakki Reddy', cursive;
+  margin-top: 15px;
+}
+.filter {
+  width: 100%;
+}
+
+.selected {
+  color: $patina;
+}
+
+.keg-form {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  .kegInput{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .brandInput{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  margin-left: 89%;
+  margin-top: 20px;
+
+}
+#edit {
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+#input {
+  margin: 0px;
+
+}
+
+.add-button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
