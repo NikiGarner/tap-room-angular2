@@ -43,18 +43,14 @@ $ npm install
 $ bower install
 ```
 ```
+$ apm install atom-typescript
+```
+```
 $ gulp build
 ```
 ```
 $ gulp serve
 ```
-#### apiKey
-* get a github API key (github calls them Personal access tokens).
-* create a file called ".env" in the top level of the directory.
-
-| .env |
-| ------------- |
-| exports.apiKey = "API-KEY-GOES-HERE"; |
 
 ## Known Bugs
 
