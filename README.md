@@ -1,14 +1,13 @@
 # EPICODUS STUDENT PROJECT
 ## JavaScript | Angular JS
 
-#### Tap Room in Angular2, August 9, 2016
+#### Tap Room App in Angular2, August 9, 2016
 
 #### By _**Niki Garner & Maldon Meehan, Epicodus**_
 
 ## Description
 
-Tap Room App
-Build a small Angular app for a bar to keep track of their kegs. Use the To-Do List homework as a guide. Look for relationships between the various parts of this program and the parts of the To-Do List.
+Project: Build a small Angular app for a bar to keep track of their kegs.
 
 Here are some user stories to get you started. As a bartender ...
 
