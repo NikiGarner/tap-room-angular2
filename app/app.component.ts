@@ -8,6 +8,7 @@ import { Keg } from './keg.model';
   template: `
     <div class="container">
       <h1>Keg List</h1>
+      <img src="./resources/images/beer.png" alt="Keg of beer">
       <keg-list
         [kegList]="kegs"
         (onKegSelect)="kegWasSelected($event)">

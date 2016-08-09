@@ -15,8 +15,13 @@ h1 {
   text-align: center;
 }
 h3 {
+  // @extend h1;
   font-family: 'Lakki Reddy', cursive;
   margin-top: 15px;
+}
+
+img {
+  margin-left: 20%;
 }
 .filter {
   width: 100%;
